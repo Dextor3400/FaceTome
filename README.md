@@ -1,3 +1,4 @@
 # FaceTome
-Facebook main design w
+Facebook main design
+
 The home page of a facebook inspired site
