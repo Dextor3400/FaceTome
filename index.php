@@ -14,6 +14,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css"
         integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
 
 
     <title>FaceTome</title>
@@ -29,7 +30,7 @@
                     </a>
                     <div class="row no-gutters align-items-center ml-2">
                         <div class="col col-md-12">
-                            <input class="form-control border-secondary rounded-pill pr-5" type="search" placeholder="Keresés a Facebookon"
+                            <input class="form-control border-secondary rounded-pill pr-5" type="search" placeholder="Keresés a Facetome-n"
                                 id="example-search-input2">
                         </div>
                         <div class="col-auto">
@@ -112,7 +113,7 @@
                                         d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
                                 </svg>
                             </a>
-                                <div class="dropdown-menu mt-5 ml-5" style="width: 350px;" aria-labelledby="navbarCreate">
+                                <div class="dropdown-menu dropdown-menu-create mt-5 ml-5" aria-labelledby="navbarCreate">
                                     <h5 class="dropdown-header h5 mb-1">Létrehozás</h5>
                                     <a class="text-dark text-decoration-none" href="dropdown-item">
                                         <div class="">
@@ -195,7 +196,7 @@
                                     <path d="M5 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
                                 </svg>
                             </a>
-                            <div class="dropdown-menu mt-5 pr-3" style="width: 500px;" id="friendRequests" aria-labelledby="friendRequests">
+                            <div class="dropdown-menu dropdown-menu-messages mt-5" style="right: 0;" id="friendRequests" aria-labelledby="friendRequests" >
                                 <h6 class="dropdown-header mb-1 d-flex justify-content-between">
                                     <a class="text-dark" href="">Üzenetek</a>
                                     <div class="d-flex">
@@ -211,7 +212,7 @@
                                 </h6>
                                 <div class="d-flex mb-2">
                                     <div class="col-9 d-flex">
-                                        <img class="rounded-circle mr-1" width="48px"
+                                        <img class="rounded-circle mr-1 " style="max-height: 48px;"
                                             src="https://scontent.fbud3-1.fna.fbcdn.net/v/t1.0-9/31820677_1996837767056360_6738977556290076672_n.jpg?_nc_cat=105&_nc_sid=85a577&_nc_ohc=fQBpToxReAgAX_Nrlgx&_nc_ht=scontent.fbud3-1.fna&oh=f40f1cb4bcbf79ddb062cfc5b1e3f89e&oe=5F11AB62"
                                             alt="">
                                         <div>
@@ -226,7 +227,7 @@
                                 </div>
                                 <div class="d-flex mb-2">
                                     <div class="col-9 d-flex">
-                                        <img class="rounded-circle mr-1" width="48px"
+                                        <img class="rounded-circle mr-1" style="max-height: 48px;"
                                             src="https://scontent.fbud3-1.fna.fbcdn.net/v/t1.0-9/31820677_1996837767056360_6738977556290076672_n.jpg?_nc_cat=105&_nc_sid=85a577&_nc_ohc=fQBpToxReAgAX_Nrlgx&_nc_ht=scontent.fbud3-1.fna&oh=f40f1cb4bcbf79ddb062cfc5b1e3f89e&oe=5F11AB62"
                                             alt="">
                                         <div>
@@ -241,7 +242,7 @@
                                 </div>
                                 <div class="d-flex mb-2">
                                     <div class="col-9 d-flex">
-                                        <img class="rounded-circle mr-1" width="48px"
+                                        <img class="rounded-circle mr-1" style="max-height: 48px;"
                                             src="https://scontent.fbud3-1.fna.fbcdn.net/v/t1.0-9/31820677_1996837767056360_6738977556290076672_n.jpg?_nc_cat=105&_nc_sid=85a577&_nc_ohc=fQBpToxReAgAX_Nrlgx&_nc_ht=scontent.fbud3-1.fna&oh=f40f1cb4bcbf79ddb062cfc5b1e3f89e&oe=5F11AB62"
                                             alt="">
                                         <div>
@@ -256,7 +257,7 @@
                                 </div>
                                 <div class="d-flex mb-2">
                                     <div class="col-9 d-flex">
-                                        <img class="rounded-circle mr-1" width="48px"
+                                        <img class="rounded-circle mr-1" style="max-height: 48px;"
                                             src="https://scontent.fbud3-1.fna.fbcdn.net/v/t1.0-9/31820677_1996837767056360_6738977556290076672_n.jpg?_nc_cat=105&_nc_sid=85a577&_nc_ohc=fQBpToxReAgAX_Nrlgx&_nc_ht=scontent.fbud3-1.fna&oh=f40f1cb4bcbf79ddb062cfc5b1e3f89e&oe=5F11AB62"
                                             alt="">
                                         <div>
@@ -271,7 +272,7 @@
                                 </div>
                                 <div class="d-flex mb-2">
                                     <div class="col-9 d-flex">
-                                        <img class="rounded-circle mr-1" width="48px"
+                                        <img class="rounded-circle mr-1" style="max-height: 48px;"
                                             src="https://scontent.fbud3-1.fna.fbcdn.net/v/t1.0-9/31820677_1996837767056360_6738977556290076672_n.jpg?_nc_cat=105&_nc_sid=85a577&_nc_ohc=fQBpToxReAgAX_Nrlgx&_nc_ht=scontent.fbud3-1.fna&oh=f40f1cb4bcbf79ddb062cfc5b1e3f89e&oe=5F11AB62"
                                             alt="">
                                         <div>
@@ -302,12 +303,12 @@
                                         d="M8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z" />
                                 </svg>
                             </a>
-                            <div class="dropdown-menu mt-5" style="width: 450px;">
+                            <div class="dropdown-menu dropdown-menu-notifications mt-5">
                                 <h6 class="dropdown-header mb-2">Értesítések</h6>
                                 <div class="d-flex mb-2">
                                     <div class="col-12 d-flex">
                                         <a href="">
-                                            <img class="rounded-circle mr-1" width="48px"
+                                            <img class="rounded-circle mr-1" style="max-height: 48px;"
                                                 src="https://scontent.fbud3-1.fna.fbcdn.net/v/t1.0-9/31820677_1996837767056360_6738977556290076672_n.jpg?_nc_cat=105&_nc_sid=85a577&_nc_ohc=fQBpToxReAgAX_Nrlgx&_nc_ht=scontent.fbud3-1.fna&oh=f40f1cb4bcbf79ddb062cfc5b1e3f89e&oe=5F11AB62"
                                                 alt="">
                                         </a>
@@ -329,7 +330,7 @@
                                 <div class="d-flex mb-2">
                                     <div class="col-12 d-flex">
                                         <a href="">
-                                            <img class="rounded-circle mr-1" width="48px"
+                                            <img class="rounded-circle mr-1" style="max-height: 48px;"
                                                 src="https://scontent.fbud3-1.fna.fbcdn.net/v/t1.0-9/31820677_1996837767056360_6738977556290076672_n.jpg?_nc_cat=105&_nc_sid=85a577&_nc_ohc=fQBpToxReAgAX_Nrlgx&_nc_ht=scontent.fbud3-1.fna&oh=f40f1cb4bcbf79ddb062cfc5b1e3f89e&oe=5F11AB62"
                                                 alt="">
                                         </a>
@@ -856,68 +857,63 @@
                         <a href="">
                             <img class="rounded-circle" width="36px" src="/images/profile.jpg" alt="">
                         </a>
-                        <a class="text-dark text-decoration-none" href=""><span class="ml-2">Rácz Igor</span></a>
+                        <a class="text-dark text-decoration-none" href=""><span class="ml-2">Charles Harrison</span></a>
                     </div>
                     <div class="d-flex align-items-center mb-2">
                         <a href="">
                             <img class="rounded-circle" width="36px" src="/images/profile.jpg" alt="">
                         </a>
-                        <a class="text-dark text-decoration-none" href=""><span class="ml-2">Rácz Igor</span></a>
+                        <a class="text-dark text-decoration-none" href=""><span class="ml-2">Gabrielius Sherman</span></a>
                     </div>
                     <div class="d-flex align-items-center mb-2">
                         <a href="">
                             <img class="rounded-circle" width="36px" src="/images/profile.jpg" alt="">
                         </a>
-                        <a class="text-dark text-decoration-none" href=""><span class="ml-2">Rácz Igor</span></a>
+                        <a class="text-dark text-decoration-none" href=""><span class="ml-2">Sufyan Davison</span></a>
                     </div>
                     <div class="d-flex align-items-center mb-2">
                         <a href="">
                             <img class="rounded-circle" width="36px" src="/images/profile.jpg" alt="">
                         </a>
-                        <a class="text-dark text-decoration-none" href=""><span class="ml-2">Rácz Igor</span></a>
+                        <a class="text-dark text-decoration-none" href=""><span class="ml-2">Zoey Hutton</span></a>
                     </div>
                     <div class="d-flex align-items-center mb-2">
                         <a href="">
                             <img class="rounded-circle" width="36px" src="/images/profile.jpg" alt="">
                         </a>
-                        <a class="text-dark text-decoration-none" href=""><span class="ml-2">Rácz Igor</span></a>
+                        <a class="text-dark text-decoration-none" href=""><span class="ml-2">Noah Connor</span></a>
                     </div>
                     <div class="d-flex align-items-center mb-2">
                         <a href="">
                             <img class="rounded-circle" width="36px" src="/images/profile.jpg" alt="">
                         </a>
-                        <a class="text-dark text-decoration-none" href=""><span class="ml-2">Rácz Igor</span></a>
+                        <a class="text-dark text-decoration-none" href=""><span class="ml-2">Lewie Wilkerson</span></a>
                     </div>
                     <div class="d-flex align-items-center mb-2">
                         <a href="">
                             <img class="rounded-circle" width="36px" src="/images/profile.jpg" alt="">
                         </a>
-                        <a class="text-dark text-decoration-none" href=""><span class="ml-2">Rácz Igor</span></a>
+                        <a class="text-dark text-decoration-none" href=""><span class="ml-2">Oriana Dennis</span></a>
                     </div>
                     <div class="d-flex align-items-center mb-2">
                         <a href="">
                             <img class="rounded-circle" width="36px" src="/images/profile.jpg" alt="">
                         </a>
-                        <a class="text-dark text-decoration-none" href=""><span class="ml-2">Rácz Igor</span></a>
+                        <a class="text-dark text-decoration-none" href=""><span class="ml-2">Maddox Morton</span></a>
                     </div>
                     <div class="d-flex align-items-center mb-2">
                         <a href="">
                             <img class="rounded-circle" width="36px" src="/images/profile.jpg" alt="">
                         </a>
-                        <a class="text-dark text-decoration-none" href=""><span class="ml-2">Rácz Igor</span></a>
+                        <a class="text-dark text-decoration-none" href=""><span class="ml-2">Dev Goodman</span></a>
                     </div>
                     <div class="d-flex align-items-center mb-2">
                         <a href="">
                             <img class="rounded-circle" width="36px" src="/images/profile.jpg" alt="">
                         </a>
-                        <a class="text-dark text-decoration-none" href=""><span class="ml-2">Rácz Igor</span></a>
+                        <a class="text-dark text-decoration-none" href=""><span class="ml-2">Georga Rubio</span></a>
                     </div>
-                    <div class="d-flex align-items-center mb-2">
-                        <a href="">
-                            <img class="rounded-circle" width="36px" src="/images/profile.jpg" alt="">
-                        </a>
-                        <a class="text-dark text-decoration-none" href=""><span class="ml-2">Rácz Igor</span></a>
-                    </div>
+
                     
                     
                 </div>

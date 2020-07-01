@@ -1,4 +1,58 @@
 .rounded-pill {
   border-radius: 1rem;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .dropdown-menu-create {
+    width: 150px;
+  }
+  .dropdown-menu-messages {
+    width: auto;
+  }
+  .dropdown-menu-notifications {
+    width: 180px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 375px) {
+  .dropdown-menu-notifications {
+    width: 200px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .dropdown-menu-create {
+    width: 300px;
+  }
+  .dropdown-menu-messages {
+    width: 350px;
+  }
+  .dropdown-menu-notifications {
+    width: 400px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .dropdown-menu-create {
+    width: 350px;
+  }
+  .dropdown-menu-messages {
+    width: 400px;
+  }
+  .dropdown-menu-notifications {
+    width: 450px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .dropdown-menu-messages {
+    width: 500px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
